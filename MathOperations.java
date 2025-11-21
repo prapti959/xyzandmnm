@@ -23,24 +23,15 @@ public class MathOperations
         System.out.println("\nUnary Operators:");
         System.out.println("x = " + x);
         System.out.println("x++ = " + (x++));  // Post-increment
-        System.out.println("After x++, x = " + x);
         System.out.println("++x = " + (++x));  // Pre-increment
         System.out.println("x-- = " + (x--));  // Post-decrement
-        System.out.println("After x--, x = " + x);
         System.out.println("--x = " + (--x));  // Pre-decrement
 
         // 3. Assignment Operators
         int y = 20;
         System.out.println("\nAssignment Operators:");
         System.out.println("y = " + y);
-        y += 5;  // y = y + 5
-        System.out.println("y += 5 → " + y);
-        y -= 3;  // y = y - 3
-        System.out.println("y -= 3 → " + y);
-        y *= 2;  // y = y * 2
-        System.out.println("y *= 2 → " + y);
-        y /= 4;  // y = y / 4
-        System.out.println("y /= 4 → " + y);
+        
 
         // 4. Relational Operators
         System.out.println("\nRelational Operators:");

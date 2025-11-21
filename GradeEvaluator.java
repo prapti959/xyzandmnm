@@ -13,7 +13,7 @@ public class GradeEvaluator
         System.out.println("Enter your marks");
         int marks=scan.nextInt();
         String result=(marks>=40)?"Pass":"Fail";
-        System.out.println(result);
+        System.out.println("\n result=" +result);
         
     }
 }
